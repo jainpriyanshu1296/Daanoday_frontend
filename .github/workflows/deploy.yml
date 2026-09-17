@@ -36,7 +36,7 @@ jobs:
           cp /tmp/daanoday-frontend.env .env
 
           echo "==> Installing dependencies"
-          /opt/homebrew/bin/npm ci
+          /opt/homebrew/bin/npm install
 
           echo "==> Building frontend"
           /opt/homebrew/bin/npm run build
